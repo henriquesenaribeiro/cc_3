@@ -1,1 +1,3 @@
-# cc_3
+# Hi
+
+This is my coding challenge #3.
