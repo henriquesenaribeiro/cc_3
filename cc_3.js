@@ -23,3 +23,12 @@ let employee = {
     employee.performanceScore = 90; // Updated performance score from 90 to 99
     employee.promotionEligible = true; // Included a new boolean property to indicate promotion eligibility and set it to true.
     console.log("Updated Employee Performance Tracking:", employee);
+
+// Task 4: Customer Feedback Records
+let feedback = [
+    { customerName: "Neymar", feedbackText: "The best player in history", rating: 1 },
+    { customerName: "Gabriel", feedbackText: "Useful in long-term championships", rating: 5 },
+    { customerName: "Coutinho", feedbackText: "Useless", rating: 9 }
+]; // Included customer names along with their feedback and corresponding ratings.
+feedback.push({ customerName: "Marquinhos", feedbackText: "Best service I've ever recieved", rating: 5 }); // Inserted another customer along with their feedback and rating, following the same format.
+console.log("Feedback List:", feedback); 
