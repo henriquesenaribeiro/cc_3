@@ -32,3 +32,15 @@ let feedback = [
 ]; // Included customer names along with their feedback and corresponding ratings.
 feedback.push({ customerName: "Marquinhos", feedbackText: "Best service I've ever recieved", rating: 5 }); // Inserted another customer along with their feedback and rating, following the same format.
 console.log("Feedback List:", feedback); 
+
+// Task 5: Inventory Management System
+let inventory = {
+    itemName: "Steroids",
+    stockCount: 11,
+    price: 399,
+    calculateTotalValue: function () {
+        return this.stockCount * this.price;
+    }
+}; // Created an item with limited stock and calculated its total value by multiplying the stock count by the price, using `this` to define the object and perform the multiplication.
+console.log("Inventory Details:", inventory);
+console.log("Total Inventory Value:", inventory.calculateTotalValue());
